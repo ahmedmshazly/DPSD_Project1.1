@@ -132,7 +132,7 @@ Project1.1/
 
 ## Design Artifacts
 - **UML Diagram:**  
-  ![UML Diagram](uml_diagram.jpg)
+  ![UML Diagram](UMLs/uml_diagram.jpg)
   See `uml_diagram.jpg` for the complete system architecture, including the model, wrapper, and exceptions packages.
 - **Design Rationale Document:**  
   (Optional) Include a detailed document discussing design decisions, application of SOLID principles, and design patterns (Factory, Proxy/Adapter).
