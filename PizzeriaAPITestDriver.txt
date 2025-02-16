@@ -1,0 +1,28 @@
+/app/extra/idea-IU/jbr/bin/java -javaagent:/app/extra/idea-IU/lib/idea_rt.jar=36515:/app/extra/idea-IU/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /home/ahmdmshazly/Desktop/Submission/PizzaConfigProject1.1.0/out/production/PizzaConfigProject1.1.0:/home/ahmdmshazly/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/ahmdmshazly/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/home/ahmdmshazly/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/home/ahmdmshazly/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar test.driver.PizzeriaAPITestDriver
+Pizzeria 'Pizza Palace' created successfully.
+Initial pizzeria configuration:
+Pizza Configuration: Deluxe Pizza
+Base Price: 1500.0
+Option Sets:
+	Option Set: Size
+		Option[name=Small, price=0.0]
+		Option[name=Medium, price=200.0]
+		Option[name=Large, price=500.0]
+Base price updated successfully.
+OptionSet name updated successfully.
+Option price updated successfully.
+
+Updated pizzeria configuration:
+Pizza Configuration: Deluxe Pizza
+Base Price: 1600.0
+Option Sets:
+	Option Set: Pizza Size
+		Option[name=Small, price=0.0]
+		Option[name=Medium, price=250.0]
+		Option[name=Large, price=500.0]
+
+Attempting to update a non-existent OptionSet:
+OptionSet 'NonExistent' not found.
+
+Process finished with exit code 0
+
